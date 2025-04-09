@@ -1,0 +1,47 @@
+# ExtJS to React Migration Engineering Prompt
+
+## Project Overview
+I need to convert an existing ExtJS application to React. The application should maintain its current functionality while adopting modern React practices and tooling.
+
+## Technical Requirements
+
+### Architecture
+- Migrate from ExtJS class-based components to React functional components with hooks
+- Use Context API for state management (replacing ExtJS stores)
+- Implement React Router for navigation (replacing ExtJS routing)
+- Adopt Material UI as the component library
+- Implement a modular, component-based architecture
+
+### Component Migration Guidelines
+- Replace ExtJS Panels with appropriate Material UI containers
+- Convert ExtJS Grids to Material UI Tables or Data Grids
+- Migrate ExtJS Forms to React forms using Formik or React Hook Form with Material UI inputs
+- Transform ExtJS Layouts to CSS Grid or Flexbox layouts
+- Replace ExtJS Charts with React charting libraries (e.g., Recharts, Victory, or Nivo)
+- Convert ExtJS Trees to appropriate React tree components
+
+### State Management
+- Replace ExtJS stores with React Context API
+- Create separate contexts for different domains of the application
+- Implement custom hooks to access and manipulate context state
+- Use reducers for complex state transitions
+
+### Data Handling
+- Refactor AJAX calls to use fetch API or Axios
+- Replace ExtJS model validation with custom validation or form libraries
+- Implement proper error handling and loading states
+
+### Specific ExtJS Patterns to Migrate
+- Convert ExtJS component configs to React props
+- Replace ExtJS event listeners with React event handlers
+- Transform ExtJS class inheritance to React composition patterns
+- Migrate ExtJS mixins to custom hooks or higher-order components
+- Replace ExtJS component queries (Ext.getCmp) with React refs or context
+
+## Deliverables
+1. A complete React application that replicates all functionality of the original ExtJS app
+2. Component library documentation mapping ExtJS components to their React equivalents
+3. State management architecture diagram and documentation
+4. Migration approaches for complex ExtJS-specific patterns
+5. Unit and integration tests for critical components
+6. Build and deployment configuration
