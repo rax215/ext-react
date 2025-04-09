@@ -48,7 +48,7 @@ def generate_text_from_directory(prompt, directory_path, api_key):
 if __name__ == '__main__':
     # --- Configuration ---
     # Load securely in production!
-    api_key = "AIzaSyAUhsbXRwKKmff5mDcy-GwZJuoAZ5-vvWE"
+    api_key = ""
     # Define the prompt directly in the script
     with open('prompt.txt', 'r') as f:
             prompt_template = f.read()
